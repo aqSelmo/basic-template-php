@@ -1,0 +1,21 @@
+{
+  "name": "template/guilherme",
+  "description": "Simples template MVC para projetos simples",
+  "autoload": {
+    "psr-4": {
+      "Template\\Guilherme\\Config\\": "config/",
+      "Template\\Guilherme\\Controller\\Home\\": "controller/home/",
+      "Template\\Guilherme\\Controller\\Admin\\": "controller/admin/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Guilherme Falcao",
+      "email": "guilhermefalcao2001@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "gabordemooij/redbean": "dev-master"
+  }
+}
